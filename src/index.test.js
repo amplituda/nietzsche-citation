@@ -24,5 +24,13 @@ describe('nietzsche-citation', function() {
     		var randomItem = nietzscheTolk.random();
     		expect(nietzscheTolk.all).to.include(randomItem);
     	});
+
+        it('shold return an array of random items if passed a number', function () {
+            var randomItems = nietzscheTolk.random(3);
+            expect(randomItems).to.have.length(3);
+            randomItems.forEach(function(item) {
+                expect(nietzscheTolk.all).to.include(item);
+            })
+        });
     });
 });

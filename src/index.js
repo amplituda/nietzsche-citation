@@ -1,7 +1,22 @@
 var uniqueRandomArray = require('unique-random-array');
-var starWarsNames = require('./nietzsche-citation');
+var nietzscheTolk = require('./nietzsche-citation');
+var getRandomItem = uniqueRandomArray(nietzscheTolk);
 
 module.exports = {
-	all: starWarsNames,
-	random: uniqueRandomArray(starWarsNames)
+	all: nietzscheTolk,
+	random: random
 };
+
+function random(number) {
+	var randomItems = [],
+		i=0;
+	if(number === undefined) {
+		return getRandomItem();
+	} else {
+		
+		for (; i < number; i++) {
+			randomItems.push(getRandomItem());
+		}
+		return randomItems;
+	}
+}
