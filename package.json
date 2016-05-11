@@ -1,6 +1,6 @@
 {
   "name": "nietzsche-citation",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Get random Nietzsche citat ",
   "main": "src/index.js",
   "scripts": {
