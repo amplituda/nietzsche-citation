@@ -1,0 +1,26 @@
+{
+  "name": "nietzsche-citation",
+  "version": "1.0.0",
+  "description": "Get random Nietzsche citat ",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amplituda/nietzsche-citation.git"
+  },
+  "keywords": [
+    "nietzsche",
+    "example"
+  ],
+  "author": "alex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amplituda/nietzsche-citation/issues"
+  },
+  "homepage": "https://github.com/amplituda/nietzsche-citation#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
