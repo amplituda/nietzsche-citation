@@ -1,5 +1,6 @@
-var expect = require('chai').expect;
-var nietzscheTolk = require('./index');
+import {expect} from 'chai';
+import nietzscheTolk from './index';
+
 
 
 describe('nietzsche-citation', function() {

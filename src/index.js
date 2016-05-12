@@ -1,5 +1,7 @@
-var uniqueRandomArray = require('unique-random-array');
-var nietzscheTolk = require('./nietzsche-citation');
+import uniqueRandomArray from 'unique-random-array';
+import nietzscheTolk from './nietzsche-citation';
+
+
 var getRandomItem = uniqueRandomArray(nietzscheTolk);
 
 module.exports = {
